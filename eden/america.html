@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AMERICA - EDEN NEWSPAPER</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Top Bar -->
+    <div class="top-bar">
+        <div class="container">
+            <div>📍 Mile II, Limbe, Cameroon | Friday, December 27, 2025</div>
+            <div>📧 info@edennewspaper.net | ☎️ Contact via website</div>
+        </div>
+    </div>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <img src="edin.pc/Screenshot 2025-12-27 072136.png" alt="EDEN Newspaper Logo" class="logo-image">
+            </div>
+        </div>
+    </header>
+
+    <!-- Navigation -->
+    <nav>
+        <div class="container">
+            <ul>
+                <li><a href="eden.html">HOME</a></li>
+                <li><a href="news.html">NEWS</a></li>
+                <li><a href="editorial.html">EDITORIAL</a></li>
+                <li><a href="business.html">BUSINESS</a></li>
+                <li><a href="society.html">SOCIETY</a></li>
+                <li><a href="culture.html">CULTURE</a></li>
+                <li><a href="sports.html">SPORTS</a></li>
+                <li class="dropdown">
+                    <a href="entertainment.html">ENTERTAINMENT</a>
+                    <div class="dropdown-content">
+                        <a href="#celebrities">Celebrities</a>
+                        <a href="#events">Events</a>
+                    </div>
+                </li>
+                <li><a href="hi-tech.html">HI-TECH</a></li>
+                <li class="dropdown">
+                    <a href="international.html">INTERNATIONAL</a>
+                    <div class="dropdown-content">
+                        <a href="africa.html">Africa</a>
+                        <a href="europe.html">Europe</a>
+                        <a href="america.html">America</a>
+                        <a href="asia.html">Asia</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <div class="page-header">
+        <div class="container">
+            <h1>AMERICA</h1>
+            <p>North and South American affairs, politics, economy, and cultural developments</p>
+        </div>
+    </div>
+
+    <!-- Main Content -->
+    <div class="container">
+        <div class="main-content">
+            <!-- Left Column -->
+            <div class="left-column">
+                <!-- Featured America Article -->
+                <article class="featured-article">
+                    <img src="https://images.unsplash.com/photo-1485871981521-5b1fd3805b6b?w=800" alt="Featured America">
+                    <span class="category">TRADE & ECONOMY</span>
+                    <h3>US-Mexico Trade Agreement Reaches Record $800 Billion Milestone</h3>
+                    <div class="meta">December 27, 2025 | By Americas Bureau</div>
+                    <p>Bilateral trade between the United States and Mexico has reached an all-time high of $800 billion annually, creating millions of jobs on both sides of the border and establishing a model for regional economic integration...</p>
+                    <a href="#" class="read-more">Read Full Article</a>
+                </article>
+
+                <!-- America Categories -->
+                <div class="news-categories">
+                    <h3>American Regions</h3>
+                    <div class="category-buttons">
+                        <button class="category-btn active" data-category="all">All Americas</button>
+                        <button class="category-btn" data-category="north-america">North America</button>
+                        <button class="category-btn" data-category="south-america">South America</button>
+                        <button class="category-btn" data-category="caribbean">Caribbean</button>
+                        <button class="category-btn" data-category="us-politics">US Politics</button>
+                        <button class="category-btn" data-category="latin-america">Latin America</button>
+                        <button class="category-btn" data-category="trade">Trade Relations</button>
+                    </div>
+                </div>
+
+                <!-- America Articles -->
+                <div class="articles-grid" id="america-articles">
+                    <article class="article-card america-card" data-category="north-america">
+                        <img src="https://images.unsplash.com/photo-1485871981521-5b1fd3805b6b?w=400" alt="North America Article">
+                        <div class="article-content">
+                            <span class="category">NORTH AMERICA</span>
+                            <h3>US-Mexico Trade Agreement Milestone</h3>
+                            <div class="meta">December 26, 2025 | By North America Correspondent</div>
+                            <p>Bilateral trade between the United States and Mexico has reached $800 billion annually, creating millions of jobs...</p>
+                        </div>
+                    </article>
+
+                    <article class="article-card america-card" data-category="south-america">
+                        <img src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=400" alt="South America Article">
+                        <div class="article-content">
+                            <span class="category">SOUTH AMERICA</span>
+                            <h3>Brazil's Amazon Conservation Program Success</h3>
+                            <div class="meta">December 25, 2025 | By South America Bureau</div>
+                            <p>Brazil's Amazon conservation program has reduced deforestation by 70% through sustainable development initiatives...</p>
+                        </div>
+                    </article>
+
+                    <article class="article-card america-card" data-category="us-politics">
+                        <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400" alt="US Politics Article">
+                        <div class="article-content">
+                            <span class="category">US POLITICS</span>
+                            <h3>US Infrastructure Bill Transforms Transportation</h3>
+                            <div class="meta">December 24, 2025 | By US Politics Desk</div>
+                            <p>The $2.5 trillion infrastructure bill has modernized America's transportation network, creating millions of jobs...</p>
+                        </div>
+                    </article>
+
+                    <article class="article-card america-card" data-category="latin-america">
+                        <img src="https://images.unsplash.com/photo-1469474968028-56623f02e42e?w=400" alt="Latin America Article">
+                        <div class="article-content">
+                            <span class="category">LATIN AMERICA</span>
+                            <h3>Chile's Renewable Energy Leadership</h3>
+                            <div class="meta">December 23, 2025 | By Latin America Correspondent</div>
+                            <p>Chile has achieved 85% renewable energy capacity, becoming a global leader in sustainable energy transition...</p>
+                        </div>
+                    </article>
+
+                    <article class="article-card america-card" data-category="caribbean">
+                        <img src="https://images.unsplash.com/photo-1540959733332-eab4deabeeaf?w=400" alt="Caribbean Article">
+                        <div class="article-content">
+                            <span class="category">CARIBBEAN</span>
+                            <h3>Caribbean Tourism Recovery Exceeds Expectations</h3>
+                            <div class="meta">December 22, 2025 | By Caribbean Bureau</div>
+                            <p>The Caribbean tourism industry has fully recovered, with visitor numbers surpassing pre-pandemic levels...</p>
+                        </div>
+                    </article>
+
+                    <article class="article-card america-card" data-category="trade">
+                        <img src="https://images.unsplash.com/photo-1523482580672-f109ba8cb9be?w=400" alt="Trade Article">
+                        <div class="article-content">
+                            <span class="category">TRADE RELATIONS</span>
+                            <h3>USMCA Trade Agreement Expands</h3>
+                            <div class="meta">December 21, 2025 | By Trade Correspondent</div>
+                            <p>The USMCA trade agreement has been expanded to include digital trade provisions and environmental standards...</p>
+                        </div>
+                    </article>
+
+                    <article class="article-card america-card" data-category="north-america">
+                        <img src="https://images.unsplash.com/photo-1502602898536-47ad22581b52?w=400" alt="North America Article">
+                        <div class="article-content">
+                            <span class="category">NORTH AMERICA</span>
+                            <h3>Canada's Tech Sector Innovation Surge</h3>
+                            <div class="meta">December 20, 2025 | By North America Desk</div>
+                            <p>Canada's technology sector has attracted $50 billion in investment, positioning it as North America's AI leader...</p>
+                        </div>
+                    </article>
+
+                    <article class="article-card america-card" data-category="south-america">
+                        <img src="https://images.unsplash.com/photo-1469474968028-56623f02e42e?w=400" alt="South America Article">
+                        <div class="article-content">
+                            <span class="category">SOUTH AMERICA</span>
+                            <h3>Argentina's Economic Reforms Show Results</h3>
+                            <div class="meta">December 19, 2025 | By South America Correspondent</div>
+                            <p>Argentina's economic reforms have stabilized inflation and attracted foreign investment, boosting growth...</p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+
+            <!-- Right Sidebar -->
+            <aside class="sidebar">
+                <!-- American Headlines -->
+                <div class="sidebar-section">
+                    <h3>🌎 American Headlines</h3>
+                    <div class="sidebar-article">
+                        <span class="category">ECONOMY</span>
+                        <h4>US Job Market Strengthens</h4>
+                        <div class="meta">December 27, 2025</div>
+                    </div>
+                    <div class="sidebar-article">
+                        <span class="category">TECHNOLOGY</span>
+                        <h4>AI Investment Boom</h4>
+                        <div class="meta">December 26, 2025</div>
+                    </div>
+                    <div class="sidebar-article">
+                        <span class="category">POLITICS</span>
+                        <h4>Midterm Election Results</h4>
+                        <div class="meta">December 25, 2025</div>
+                    </div>
+                </div>
+
+                <!-- Regional Focus -->
+                <div class="sidebar-section">
+                    <h3>🗺️ Regional Focus</h3>
+                    <ul>
+                        <li><a href="#north-america">North America</a></li>
+                        <li><a href="#south-america">South America</a></li>
+                        <li><a href="#caribbean">Caribbean</a></li>
+                        <li><a href="#latin-america">Latin America</a></li>
+                        <li><a href="#us-politics">US Politics</a></li>
+                        <li><a href="#trade">Trade Relations</a></li>
+                    </ul>
+                </div>
+
+                <!-- American Integration -->
+                <div class="sidebar-section">
+                    <h3>🤝 American Integration</h3>
+                    <div class="event-item">
+                        <span class="category">SUMMIT</span>
+                        <h4>Americas Summit 2026</h4>
+                        <p>April 10-15, 2026</p>
+                        <p>Los Angeles, USA</p>
+                    </div>
+                    <div class="event-item">
+                        <span class="category">ECONOMIC</span>
+                        <h4>OAS General Assembly</h4>
+                        <p>March 20-25, 2026</p>
+                        <p>Santiago, Chile</p>
+                    </div>
+                </div>
+
+                <!-- Advertisement -->
+                <div class="ad-box">
+                    <p><strong>Advertisement Space</strong><br>Reach American markets</p>
+                </div>
+
+                <!-- Newsletter -->
+                <div class="sidebar-section newsletter">
+                    <h3>📧 Newsletter</h3>
+                    <p style="margin-bottom: 15px; font-size: 14px;">American news and developments</p>
+                    <input type="email" placeholder="Your email address">
+                    <button>Subscribe</button>
+                </div>
+            </aside>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>About Eden</h3>
+                    <p>Eden is an English-language newspaper published in Mile II, Limbe, Cameroon. Established in 2004, we are committed to delivering accurate and unbiased news to our readers. Published bi-weekly on Mondays and Wednesdays.</p>
+                </div>
+
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                        <li><a href="advertise.html">Advertise With Us</a></li>
+                        <li><a href="team.html">Our Team</a></li>
+                        <li><a href="privacy.html">Privacy Policy</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h3>News Sections</h3>
+                    <ul>
+                        <li><a href="news.html">News</a></li>
+                        <li><a href="editorial.html">Editorial</a></li>
+                        <li><a href="business.html">Business</a></li>
+                        <li><a href="society.html">Society</a></li>
+                        <li><a href="culture.html">Culture</a></li>
+                        <li><a href="sports.html">Sports</a></li>
+                        <li><a href="entertainment.html">Entertainment</a></li>
+                        <li><a href="hi-tech.html">Hi-Tech</a></li>
+                        <li><a href="international.html">International</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h3>Contact Us</h3>
+                    <p>📍 Mile II, Limbe<br>South-West Region, Cameroon</p>
+                    <p>📧 info@edennewspaper.net<br>📘 Facebook: EdenNewspaper</p>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2025 Eden Newspaper. All rights reserved. | Published by CERUT (Centre for Rural Transformation)</p>
+            </div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+    <script src="america-script.js"></script>
+
+    <!-- Article Modal -->
+    <div id="articleModal" class="modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <div class="modal-header">
+                <img id="modalImage" src="" alt="Article Image" class="modal-image">
+                <div class="modal-meta">
+                    <span id="modalCategory" class="category"></span>
+                    <h2 id="modalTitle"></h2>
+                    <div id="modalDate" class="meta"></div>
+                </div>
+            </div>
+            <div class="modal-body">
+                <div id="modalContent" class="article-full-content">
+                    <!-- Full article content will be loaded here -->
+                </div>
+                <div class="modal-actions">
+                    <button class="share-btn">📤 Share</button>
+                    <button class="bookmark-btn">🔖 Bookmark</button>
+                    <button class="print-btn">🖨️ Print</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

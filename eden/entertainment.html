@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ENTERTAINMENT - EDEN NEWSPAPER</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Top Bar -->
+    <div class="top-bar">
+        <div class="container">
+            <div>📍 Mile II, Limbe, Cameroon | Friday, December 27, 2025</div>
+            <div>📧 info@edennewspaper.net | ☎️ Contact via website</div>
+        </div>
+    </div>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <img src="edin.pc/Screenshot 2025-12-27 072136.png" alt="EDEN Newspaper Logo" class="logo-image">
+            </div>
+        </div>
+    </header>
+
+    <!-- Navigation -->
+    <nav>
+        <div class="container">
+            <ul>
+                <li><a href="eden.html">HOME</a></li>
+                <li><a href="news.html">NEWS</a></li>
+                <li><a href="editorial.html">EDITORIAL</a></li>
+                <li><a href="business.html">BUSINESS</a></li>
+                <li><a href="society.html">SOCIETY</a></li>
+                <li><a href="culture.html">CULTURE</a></li>
+                <li><a href="sports.html">SPORTS</a></li>
+                <li class="dropdown">
+                    <a href="entertainment.html">ENTERTAINMENT</a>
+                    <div class="dropdown-content">
+                        <a href="#celebrities">Celebrities</a>
+                        <a href="#events">Events</a>
+                    </div>
+                </li>
+                <li><a href="hi-tech.html">HI-TECH</a></li>
+                <li class="dropdown">
+                    <a href="international.html">INTERNATIONAL</a>
+                    <div class="dropdown-content">
+                        <a href="#africa">Africa</a>
+                        <a href="#europe">Europe</a>
+                        <a href="#america">America</a>
+                        <a href="#asia">Asia</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <div class="page-header">
+        <div class="container">
+            <h1>ENTERTAINMENT</h1>
+            <p>Celebrities, movies, music, events, and entertainment news</p>
+        </div>
+    </div>
+
+    <!-- Main Content -->
+    <div class="container">
+        <div class="main-content">
+            <!-- Left Column -->
+            <div class="left-column">
+                <!-- Featured Entertainment Article -->
+                <article class="featured-article">
+                    <img src="https://images.unsplash.com/photo-1489599735734-79b4d4b9c7e?w=800" alt="Featured Entertainment">
+                    <span class="category">CELEBRITIES</span>
+                    <h2>Cameroonian Stars Shine at International Awards</h2>
+                    <div class="meta">December 27, 2025 | By Entertainment Desk</div>
+                    <p>Local celebrities made Cameroon proud at the prestigious African Entertainment Awards, taking home multiple accolades in music, film, and television categories...</p>
+                    <a href="#" class="read-more">Read Full Article</a>
+                </article>
+
+                <!-- Entertainment Categories -->
+                <div class="news-categories">
+                    <h3>Entertainment Topics</h3>
+                    <div class="category-buttons">
+                        <button class="category-btn active" data-category="all">All Entertainment</button>
+                        <button class="category-btn" data-category="celebrities">Celebrities</button>
+                        <button class="category-btn" data-category="movies">Movies & TV</button>
+                        <button class="category-btn" data-category="music">Music</button>
+                        <button class="category-btn" data-category="events">Events</button>
+                        <button class="category-btn" data-category="fashion">Fashion</button>
+                        <button class="category-btn" data-category="gaming">Gaming</button>
+                    </div>
+                </div>
+
+                <!-- Entertainment Articles -->
+                <div class="articles-grid" id="entertainment-articles">
+                    <article class="article-card entertainment-card" data-category="music">
+                        <img src="https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=400" alt="Music Article">
+                        <div class="article-content">
+                            <span class="category">MUSIC</span>
+                            <h3>New Album Drops from Rising Star</h3>
+                            <div class="meta">December 26, 2025 | By Music Critic</div>
+                            <p>The latest release from Cameroon's music sensation is breaking streaming records and topping charts across Africa...</p>
+                        </div>
+                    </article>
+
+                    <article class="article-card entertainment-card" data-category="movies">
+                        <img src="https://images.unsplash.com/photo-1489599735734-79b4d4b9c7e?w=400" alt="Movies Article">
+                        <div class="article-content">
+                            <span class="category">MOVIES & TV</span>
+                            <h3>Local Film Festival Announces Winners</h3>
+                            <div class="meta">December 25, 2025 | By Film Reporter</div>
+                            <p>The Cameroon International Film Festival concluded with local productions taking major awards in multiple categories...</p>
+                        </div>
+                    </article>
+
+                    <article class="article-card entertainment-card" data-category="celebrities">
+                        <img src="https://images.unsplash.com/photo-1494790108755-2616b612b786?w=400" alt="Celebrities Article">
+                        <div class="article-content">
+                            <span class="category">CELEBRITIES</span>
+                            <h3>Actress Returns to Cameroon for Charity</h3>
+                            <div class="meta">December 24, 2025 | By Celebrity News</div>
+                            <p>Popular Cameroonian actress visits her hometown to support local children's education initiatives...</p>
+                        </div>
+                    </article>
+
+                    <article class="article-card entertainment-card" data-category="events">
+                        <img src="https://images.unsplash.com/photo-1514525253161-7a46d19cd819?w=400" alt="Events Article">
+                        <div class="article-content">
+                            <span class="category">EVENTS</span>
+                            <h3>Music Festival Coming to Limbe</h3>
+                            <div class="meta">December 23, 2025 | By Events Coordinator</div>
+                            <p>Major music festival announces dates for Limbe concert, featuring both local and international artists...</p>
+                        </div>
+                    </article>
+
+                    <article class="article-card entertainment-card" data-category="fashion">
+                        <img src="https://images.unsplash.com/photo-1445205170230-053b83016050?w=400" alt="Fashion Article">
+                        <div class="article-content">
+                            <span class="category">FASHION</span>
+                            <h3>Local Designers Showcase at Fashion Week</h3>
+                            <div class="meta">December 22, 2025 | By Fashion Editor</div>
+                            <p>Cameroonian designers presented innovative collections that blended traditional elements with modern trends...</p>
+                        </div>
+                    </article>
+
+                    <article class="article-card entertainment-card" data-category="gaming">
+                        <img src="https://images.unsplash.com/photo-1542751371-adc38448a05e?w=400" alt="Gaming Article">
+                        <div class="article-content">
+                            <span class="category">GAMING</span>
+                            <h3>Gaming Tournament Breaks Records</h3>
+                            <div class="meta">December 21, 2025 | By Gaming Reporter</div>
+                            <p>The annual eSports championship attracted thousands of participants and viewers from across Cameroon...</p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+
+            <!-- Right Sidebar -->
+            <aside class="sidebar">
+                <!-- Entertainment News -->
+                <div class="sidebar-section">
+                    <h3>🎬 Entertainment Buzz</h3>
+                    <div class="buzz-item">
+                        <span class="category">AWARDS</span>
+                        <h4>African Entertainment Awards</h4>
+                        <p>December 28, 2025</p>
+                    </div>
+                    <div class="buzz-item">
+                        <span class="category">PREMIERE</span>
+                        <h4>New Movie Release</h4>
+                        <p>January 3, 2026</p>
+                    </div>
+                </div>
+
+                <!-- Celebrity Spotlight -->
+                <div class="sidebar-section">
+                    <h3>⭐ Celebrity Spotlight</h3>
+                    <ul>
+                        <li><a href="#">Rising Music Stars</a></li>
+                        <li><a href="#">Film Festival Highlights</a></li>
+                        <li><a href="#">Fashion Icons</a></li>
+                        <li><a href="#">Gaming Champions</a></li>
+                        <li><a href="#">Event Previews</a></li>
+                    </ul>
+                </div>
+
+                <!-- Advertisement -->
+                <div class="ad-box">
+                    <p><strong>Advertisement Space</strong><br>Contact us to advertise</p>
+                </div>
+
+                <!-- Newsletter -->
+                <div class="sidebar-section newsletter">
+                    <h3>📧 Newsletter</h3>
+                    <p style="margin-bottom: 15px; font-size: 14px;">Entertainment updates and events</p>
+                    <input type="email" placeholder="Your email address">
+                    <button>Subscribe</button>
+                </div>
+            </aside>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>About Eden</h3>
+                    <p>Eden is an English-language newspaper published in Limbe, Cameroon. Established in 2004, we are committed to delivering accurate and unbiased news to our readers.</p>
+                </div>
+
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                        <li><a href="advertise.html">Advertise With Us</a></li>
+                        <li><a href="team.html">Our Team</a></li>
+                        <li><a href="privacy.html">Privacy Policy</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h3>News Sections</h3>
+                    <ul>
+                        <li><a href="news.html">News</a></li>
+                        <li><a href="editorial.html">Editorial</a></li>
+                        <li><a href="business.html">Business</a></li>
+                        <li><a href="society.html">Society</a></li>
+                        <li><a href="culture.html">Culture</a></li>
+                        <li><a href="sports.html">Sports</a></li>
+                        <li><a href="entertainment.html">Entertainment</a></li>
+                        <li><a href="hi-tech.html">Hi-Tech</a></li>
+                        <li><a href="international.html">International</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h3>Contact Us</h3>
+                    <p>📍 Mile II, Limbe<br>South-West Region, Cameroon</p>
+                    <p>📧 info@edennewspaper.net<br>📘 Facebook: EdenNewspaper</p>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2025 Eden Newspaper. All rights reserved. | Published by CERUT (Centre for Rural Transformation)</p>
+            </div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+    <script src="entertainment-script.js"></script>
+
+    <!-- Article Modal -->
+    <div id="articleModal" class="modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <div class="modal-header">
+                <img id="modalImage" src="" alt="Article Image" class="modal-image">
+                <div class="modal-meta">
+                    <span id="modalCategory" class="category"></span>
+                    <h2 id="modalTitle"></h2>
+                    <div id="modalDate" class="meta"></div>
+                </div>
+            </div>
+            <div class="modal-body">
+                <div id="modalContent" class="article-full-content">
+                    <!-- Full article content will be loaded here -->
+                </div>
+                <div class="modal-actions">
+                    <button class="share-btn">📤 Share</button>
+                    <button class="bookmark-btn">🔖 Bookmark</button>
+                    <button class="print-btn">🖨️ Print</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

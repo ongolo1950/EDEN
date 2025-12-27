@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HI-TECH - EDEN NEWSPAPER</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Top Bar -->
+    <div class="top-bar">
+        <div class="container">
+            <div>📍 Mile II, Limbe, Cameroon | Friday, December 27, 2025</div>
+            <div>📧 info@edennewspaper.net | ☎️ Contact via website</div>
+        </div>
+    </div>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <img src="edin.pc/Screenshot 2025-12-27 072136.png" alt="EDEN Newspaper Logo" class="logo-image">
+            </div>
+        </div>
+    </header>
+
+    <!-- Navigation -->
+    <nav>
+        <div class="container">
+            <ul>
+                <li><a href="eden.html">HOME</a></li>
+                <li><a href="news.html">NEWS</a></li>
+                <li><a href="editorial.html">EDITORIAL</a></li>
+                <li><a href="business.html">BUSINESS</a></li>
+                <li><a href="society.html">SOCIETY</a></li>
+                <li><a href="culture.html">CULTURE</a></li>
+                <li><a href="sports.html">SPORTS</a></li>
+                <li class="dropdown">
+                    <a href="entertainment.html">ENTERTAINMENT</a>
+                    <div class="dropdown-content">
+                        <a href="#celebrities">Celebrities</a>
+                        <a href="#events">Events</a>
+                    </div>
+                </li>
+                <li><a href="hi-tech.html">HI-TECH</a></li>
+                <li class="dropdown">
+                    <a href="international.html">INTERNATIONAL</a>
+                    <div class="dropdown-content">
+                        <a href="#africa">Africa</a>
+                        <a href="#europe">Europe</a>
+                        <a href="#america">America</a>
+                        <a href="#asia">Asia</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <div class="page-header">
+        <div class="container">
+            <h1>HI-TECH</h1>
+            <p>Technology, innovation, gadgets, and digital transformation</p>
+        </div>
+    </div>
+
+    <!-- Main Content -->
+    <div class="container">
+        <div class="main-content">
+            <!-- Left Column -->
+            <div class="left-column">
+                <!-- Featured Tech Article -->
+                <article class="featured-article">
+                    <img src="https://images.unsplash.com/photo-1518709268805-4e9042af2176?w=800" alt="Featured Tech">
+                    <span class="category">INNOVATION</span>
+                    <h2>Cameroon Launches National Digital Transformation Initiative</h2>
+                    <div class="meta">December 27, 2025 | By Tech Desk</div>
+                    <p>The government unveiled a comprehensive plan to accelerate digital adoption across all sectors, with investments in infrastructure, education, and technology startups...</p>
+                    <a href="#" class="read-more">Read Full Article</a>
+                </article>
+
+                <!-- Tech Categories -->
+                <div class="news-categories">
+                    <h3>Technology Topics</h3>
+                    <div class="category-buttons">
+                        <button class="category-btn active" data-category="all">All Tech</button>
+                        <button class="category-btn" data-category="gadgets">Gadgets</button>
+                        <button class="category-btn" data-category="ai">AI & Machine Learning</button>
+                        <button class="category-btn" data-category="internet">Internet & Connectivity</button>
+                        <button class="category-btn" data-category="mobile">Mobile Technology</button>
+                        <button class="category-btn" data-category="cybersecurity">Cybersecurity</button>
+                        <button class="category-btn" data-category="startups">Startups</button>
+                    </div>
+                </div>
+
+                <!-- Tech Articles -->
+                <div class="articles-grid" id="tech-articles">
+                    <article class="article-card tech-card" data-category="startups">
+                        <img src="https://images.unsplash.com/photo-1559136555-9303baea8ebd?w=400" alt="Startups Article">
+                        <div class="article-content">
+                            <span class="category">STARTUPS</span>
+                            <h3>Cameroonian FinTech Startup Raises $5M</h3>
+                            <div class="meta">December 26, 2025 | By Startup Reporter</div>
+                            <p>Local fintech company secures major investment to expand mobile payment solutions across West Africa...</p>
+                        </div>
+                    </article>
+
+                    <article class="article-card tech-card" data-category="ai">
+                        <img src="https://images.unsplash.com/photo-1677442136019-21780ecad995?w=400" alt="AI Article">
+                        <div class="article-content">
+                            <span class="category">AI & MACHINE LEARNING</span>
+                            <h3>AI Research Center Opens in Yaoundé</h3>
+                            <div class="meta">December 25, 2025 | By AI Correspondent</div>
+                            <p>New research facility aims to develop AI solutions for agriculture, healthcare, and education in Cameroon...</p>
+                        </div>
+                    </article>
+
+                    <article class="article-card tech-card" data-category="internet">
+                        <img src="https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=400" alt="Internet Article">
+                        <div class="article-content">
+                            <span class="category">INTERNET & CONNECTIVITY</span>
+                            <h3>Fiber Optic Network Expands to Rural Areas</h3>
+                            <div class="meta">December 24, 2025 | By Telecom Analyst</div>
+                            <p>Government initiative brings high-speed internet to remote communities, bridging the digital divide...</p>
+                        </div>
+                    </article>
+
+                    <article class="article-card tech-card" data-category="gadgets">
+                        <img src="https://images.unsplash.com/photo-1518709268805-4e9042af2176?w=400" alt="Gadgets Article">
+                        <div class="article-content">
+                            <span class="category">GADGETS</span>
+                            <h3>Local Tech Company Launches Affordable Smartphone</h3>
+                            <div class="meta">December 23, 2025 | By Gadget Reviewer</div>
+                            <p>Made-in-Cameroon smartphone offers advanced features at accessible price point for local market...</p>
+                        </div>
+                    </article>
+
+                    <article class="article-card tech-card" data-category="cybersecurity">
+                        <img src="https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=400" alt="Cybersecurity Article">
+                        <div class="article-content">
+                            <span class="category">CYBERSECURITY</span>
+                            <h3>Cybersecurity Training Program Launched</h3>
+                            <div class="meta">December 22, 2025 | By Security Expert</div>
+                            <p>National initiative to train cybersecurity professionals and protect digital infrastructure...</p>
+                        </div>
+                    </article>
+
+                    <article class="article-card tech-card" data-category="mobile">
+                        <img src="https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?w=400" alt="Mobile Article">
+                        <div class="article-content">
+                            <span class="category">MOBILE TECHNOLOGY</span>
+                            <h3>5G Network Rollout Accelerates</h3>
+                            <div class="meta">December 21, 2025 | By Mobile Tech Writer</div>
+                            <p>Telecom companies expand 5G coverage, enabling new applications in healthcare and education...</p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+
+            <!-- Right Sidebar -->
+            <aside class="sidebar">
+                <!-- Tech News -->
+                <div class="sidebar-section">
+                    <h3>💻 Tech Updates</h3>
+                    <div class="tech-item">
+                        <span class="category">LAUNCH</span>
+                        <h4>Digital Transformation Summit</h4>
+                        <p>January 15-17, 2026</p>
+                    </div>
+                    <div class="tech-item">
+                        <span class="category">CONFERENCE</span>
+                        <h4>AI & Innovation Forum</h4>
+                        <p>February 5, 2026</p>
+                    </div>
+                </div>
+
+                <!-- Tech Trends -->
+                <div class="sidebar-section">
+                    <h3>🚀 Tech Trends</h3>
+                    <ul>
+                        <li><a href="#">AI in Agriculture</a></li>
+                        <li><a href="#">Digital Banking Growth</a></li>
+                        <li><a href="#">Smart Cities Initiative</a></li>
+                        <li><a href="#">E-Learning Platforms</a></li>
+                        <li><a href="#">Renewable Energy Tech</a></li>
+                    </ul>
+                </div>
+
+                <!-- Advertisement -->
+                <div class="ad-box">
+                    <p><strong>Advertisement Space</strong><br>Contact us to advertise</p>
+                </div>
+
+                <!-- Newsletter -->
+                <div class="sidebar-section newsletter">
+                    <h3>📧 Newsletter</h3>
+                    <p style="margin-bottom: 15px; font-size: 14px;">Technology news and updates</p>
+                    <input type="email" placeholder="Your email address">
+                    <button>Subscribe</button>
+                </div>
+            </aside>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>About Eden</h3>
+                    <p>Eden is an English-language newspaper published in Limbe, Cameroon. Established in 2004, we are committed to delivering accurate and unbiased news to our readers.</p>
+                </div>
+
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                        <li><a href="advertise.html">Advertise With Us</a></li>
+                        <li><a href="team.html">Our Team</a></li>
+                        <li><a href="privacy.html">Privacy Policy</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h3>News Sections</h3>
+                    <ul>
+                        <li><a href="news.html">News</a></li>
+                        <li><a href="editorial.html">Editorial</a></li>
+                        <li><a href="business.html">Business</a></li>
+                        <li><a href="society.html">Society</a></li>
+                        <li><a href="culture.html">Culture</a></li>
+                        <li><a href="sports.html">Sports</a></li>
+                        <li><a href="entertainment.html">Entertainment</a></li>
+                        <li><a href="hi-tech.html">Hi-Tech</a></li>
+                        <li><a href="international.html">International</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h3>Contact Us</h3>
+                    <p>📍 Mile II, Limbe<br>South-West Region, Cameroon</p>
+                    <p>📧 info@edennewspaper.net<br>📘 Facebook: EdenNewspaper</p>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2025 Eden Newspaper. All rights reserved. | Published by CERUT (Centre for Rural Transformation)</p>
+            </div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+    <script src="hi-tech-script.js"></script>
+
+    <!-- Article Modal -->
+    <div id="articleModal" class="modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <div class="modal-header">
+                <img id="modalImage" src="" alt="Article Image" class="modal-image">
+                <div class="modal-meta">
+                    <span id="modalCategory" class="category"></span>
+                    <h2 id="modalTitle"></h2>
+                    <div id="modalDate" class="meta"></div>
+                </div>
+            </div>
+            <div class="modal-body">
+                <div id="modalContent" class="article-full-content">
+                    <!-- Full article content will be loaded here -->
+                </div>
+                <div class="modal-actions">
+                    <button class="share-btn">📤 Share</button>
+                    <button class="bookmark-btn">🔖 Bookmark</button>
+                    <button class="print-btn">🖨️ Print</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
